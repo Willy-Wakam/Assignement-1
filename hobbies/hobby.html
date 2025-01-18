@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbys</title>
+</head>
+<body bgcolor="skyblue">
+    <center>
+        <h1> Hobbys </h1>
+    </center>
+   <menu>
+    <ul>
+        <li>
+            <a href="https://leetcode.com/problemset/" target="_blank" rel="noopener noreferrer" data>
+                Programming
+            </a>
+            <p>
+                I really like to write simple line code like:
+            </p>
+            <table>
+                <tr>
+                    <td bgcolor="whitesmoke">
+                        <code>
+                            conole.log('Hello World!');
+                        </code>
+                    </td>
+                    <td>&nbsp; &nbsp; &nbsp; or &nbsp; &nbsp; &nbsp;</td>
+                    <td bgcolor="whitesmoke"> 
+                        <code>
+                            System.out.println('Hello World!');
+                        </code> 
+                    </td>
+                </tr>
+            </table>
+            <p>
+                or something difficult like:
+            </p>
+            <table>
+                <tr>
+                    <td bgcolor="whitesmoke">
+                        <code>
+                            package com.example.spring; <br> <br>
+
+                            import lombok.Data;
+                            import lombok.Getter; <br>
+                            import lombok.Setter; <br>
+                            import org.springframework.data.annotation.Id; <br> 
+                            import org.springframework.data.mongodb.core.index.Indexed; <br> 
+                            import org.springframework.data.mongodb.core.mapping.Document; <br>
+                            
+                            import java.math.BigDecimal;
+                            import java.time.LocalDateTime;
+                            import java.util.List; <br> <br>
+                            
+                            @Data <br>
+                            @Document(collection = "students") <br>
+                            public class Student { <br> 
+                            
+                               <menu>
+                                @Id <br>
+                                private String id; <br>
+                            
+                                private String firstName; <br>
+                                private String lastName; <br> <br> 
+                            
+                                @Indexed(unique = true) <br> 
+                                private String email; <br> 
+                                private Gender gender; <br> 
+                                private Address address; <br> 
+                                private List&lt;String&gt; subjects; <br> 
+                                private BigDecimal totalSpent; <br> 
+                                private LocalDateTime createdAt; <br> <br>
+                            
+                                public Student(String firstName, String lastName, String email, Gender gender, Address address, <br>
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp;List&lt;String&gt; subjects, BigDecimal totalSpent, LocalDateTime createdAt) { <br> 
+                                    this.firstName = firstName; <br> 
+                                    this.lastName = lastName; <br> 
+                                    this.email = email; <br> 
+                                    this.gender = gender; <br> 
+                                    this.address = address; <br> 
+                                    this.subjects = subjects; <br> 
+                                    this.totalSpent = totalSpent; <br> 
+                                    this.createdAt = createdAt; <br> <br> 
+                                } <br> <br>
+                               </menu>
+                            
+                            }
+                            
+                        </code>
+                    </td>
+                </tr>
+            </table>
+        </li><br>
+        <li>
+            <a href="https://www.xbox.com/de-de/games?xr=shellnav" target="_blank" rel="noopener noreferrer">
+                Video Games
+            </a>
+            <p>
+                I like playing video games in my free time. <br> My favorites are adventure, combat and sports games.
+            </p>
+            <img src="./img/AC-Shadows.jpg" alt="Assassin's Creed Shadows" sizes="" srcset="" width="400">  &nbsp; &nbsp; &nbsp;
+            <img src="./img/Street-Fighters.jpg" alt="Assassin's Creed Shadows" sizes="" srcset="" width="400">  &nbsp; &nbsp; &nbsp;
+            <img src="./img/Fifa-25.jpg" alt="Assassin's Creed Shadows" sizes="" srcset="" width="400">
+        </li><br>
+        <li>
+            <a href="https://www.xbox.com/de-de/games?xr=shellnav" target="_blank" rel="noopener noreferrer">
+                Reading books
+            </a>
+            <p>
+                When traveling, it's often boring to spend all your time playing video games, so I take a few books with me. <br>
+                The type of books I read include :
+            </p>
+            <ol>
+                <li>
+                    <a href="https://www.goodreads.com/genres/romance" target="_blank" rel="noopener noreferrer">
+                        Romantic books
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.goodreads.com/genres/fiction" target="_blank" rel="noopener noreferrer">
+                        Fiction books
+                    </a>
+                </li>
+            </ol>
+        </li>
+    </ul>
+    <a href="../index.html"> &lt; back to home page</a>
+   </menu>
+
+</body>
+</html>
